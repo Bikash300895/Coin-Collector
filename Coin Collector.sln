@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{DF01DE51-0BB3-1BFC-6C78-B5558C2DEB5A}") = "Coin Collector", "Assembly-CSharp-firstpass.csproj", "{79F0A527-092D-B22D-7DF4-60030A98D4F8}"
+EndProject
+Project("{DF01DE51-0BB3-1BFC-6C78-B5558C2DEB5A}") = "Coin Collector", "Assembly-CSharp.csproj", "{D8FC7B53-D6CE-9BCA-3691-B01839FC6864}"
+EndProject
+Project("{DF01DE51-0BB3-1BFC-6C78-B5558C2DEB5A}") = "Coin Collector", "Assembly-CSharp-Editor-firstpass.csproj", "{50AA67A5-8B88-48CD-E4EF-BAD9356ED250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F0A527-092D-B22D-7DF4-60030A98D4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F0A527-092D-B22D-7DF4-60030A98D4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F0A527-092D-B22D-7DF4-60030A98D4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F0A527-092D-B22D-7DF4-60030A98D4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FC7B53-D6CE-9BCA-3691-B01839FC6864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FC7B53-D6CE-9BCA-3691-B01839FC6864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FC7B53-D6CE-9BCA-3691-B01839FC6864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FC7B53-D6CE-9BCA-3691-B01839FC6864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AA67A5-8B88-48CD-E4EF-BAD9356ED250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AA67A5-8B88-48CD-E4EF-BAD9356ED250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AA67A5-8B88-48CD-E4EF-BAD9356ED250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AA67A5-8B88-48CD-E4EF-BAD9356ED250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
