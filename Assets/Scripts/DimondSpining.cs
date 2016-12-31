@@ -23,12 +23,26 @@ public class DimondSpining : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider)
     {
-        if(ScoreManager.score>15)
+        if(ScoreManager.score>=15)
         {
-            ScoreManager.score -= 15;
-            UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_RunSpeed *= 1.5f;
-            UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_WalkSpeed *= 1.5f;
             Destroy(gameObject);
+            ScoreManager.score -= 15;
+            if(UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_RunSpeed < 2.0f)
+            {
+                UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_RunSpeed *= 2.5f;
+                UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_WalkSpeed *= 2.5f;
+                GameObject soundManager = GameObject.Find("SoundManager");
+                soundManager.GetComponent<CoinSound>().play(1);
+            }
+            else
+            {
+                UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_RunSpeed *= 1.5f;
+                UnityStandardAssets.Characters.FirstPerson.FirstPersonController.m_WalkSpeed *= 1.5f;
+                GameObject soundManager = GameObject.Find("SoundManager");
+                soundManager.GetComponent<CoinSound>().play(1);
+            }
+            
+            
         }
         
     }
